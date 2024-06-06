@@ -18,7 +18,7 @@ type Producter struct {
 var storagecenter []Producter
 
 func homepage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Homepage called: Welcome to Kloudone")
+	fmt.Fprintf(w, "Homepage called: Welcome to Develop")
 }
 
 func getstoragecenter(w http.ResponseWriter, r *http.Request) {
